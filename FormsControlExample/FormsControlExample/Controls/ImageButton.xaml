@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView WidthRequest="180" HeightRequest="60" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsControlExample.ImageButton">
+
+    <Frame CornerRadius="4" HasShadow="false" OutlineColor="Silver" BackgroundColor="#DEDEDE">
+        <StackLayout Orientation="Horizontal">
+            <Image x:Name="innerImage" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
+            <Label x:Name="innerLabel" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
+        </StackLayout>
+    </Frame>
+    
+</ContentView>

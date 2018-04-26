@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Options"
+             x:Class="FormsControlExample.OptionsMenu">
+
+    <ListView x:Name="items" ItemTapped="SelectMenuItem">
+        <ListView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Image Button</x:String>
+                <x:String>Gauge</x:String>
+            </x:Array>
+        </ListView.ItemsSource>
+    </ListView>
+    
+</ContentPage>
